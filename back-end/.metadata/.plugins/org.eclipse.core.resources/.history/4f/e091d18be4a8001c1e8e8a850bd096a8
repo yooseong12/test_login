@@ -1,0 +1,17 @@
+package com.example.demo.vo;
+
+import lombok.Data;
+
+@Data
+public class UserVO {
+
+	
+	int id;
+	private String username;
+	private String password;
+	private String firstName;
+	private String lastName;
+	int age;
+	int salary;
+	
+}
